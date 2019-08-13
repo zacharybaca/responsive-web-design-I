@@ -130,4 +130,20 @@ footer {
         text-align: center;
         vertical-align: middle;
     }
+
+    nav {
+        margin: 10% 10% 2% 1%;
+    }
+    
+    nav a{
+        color: gray;
+        text-decoration: none;
+        margin: 2%;
+    }
+
+    .logo{
+        position: absolute;
+        top: -40px;
+        right: 0px;
+    }
 }
