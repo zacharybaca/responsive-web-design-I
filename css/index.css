@@ -120,3 +120,14 @@ footer {
 	font-size: 15px;
 } 
 
+/******** Media Queries For Tablet View *******/
+@media screen and (max-width: 800px) {
+    .header-box {
+        display: inline-block;
+        width: 90%;
+        height: 600px;
+        margin: 4% 6%;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
