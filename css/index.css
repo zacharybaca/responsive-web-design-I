@@ -125,25 +125,32 @@ footer {
     .header-box {
         display: inline-block;
         width: 90%;
-        height: 600px;
+        height: 250px;
         margin: 4% 6%;
         text-align: center;
         vertical-align: middle;
     }
 
     nav {
-        margin: 10% 10% 2% 1%;
+		display: flex;
+		justify-content: space-between;
+		margin: 20% 10% 2% 1%;
+		width: 100%
     }
     
     nav a{
         color: gray;
         text-decoration: none;
-        margin: 2%;
+		margin: 2%;
     }
 
     .logo{
         position: absolute;
-        top: -40px;
-        right: 0px;
-    }
+        top: -70px;
+		right: 100px;
+	}
+	
+	.circle {
+		display: none;	
+	}
 }
