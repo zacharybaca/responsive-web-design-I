@@ -154,3 +154,46 @@ footer {
 		display: none;	
 	}
 }
+
+/******* Media Queries For Mobile View ******/
+@media screen and (max-width: 500px) {
+	.logo{
+		position: absolute;
+		top: -30px;
+		right: 0px;
+	}
+
+	nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		
+		
+	}
+
+	nav a{
+		color: gray;
+		text-decoration: none;
+		text-align: center;
+		margin: 5%;
+		
+		
+	}
+
+	.line-separator{
+		height:2px;
+		width: 100%;
+		background:#717171;
+		border-bottom:1px solid #313030;
+		}
+
+		#header-text{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			margin-top: 100px;
+			margin-left: -30px;
+		}
+
+		
+}
